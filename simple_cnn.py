@@ -7,7 +7,7 @@ from pyspark.ml.pipeline import Pipeline, PipelineModel
 from sparktorch import PysparkPipelineWrapper
 import torch
 import torch.nn as nn
-from cnn_network import Net
+from ds340-final.cnn_network import Net
 
 
 if __name__ == '__main__':
